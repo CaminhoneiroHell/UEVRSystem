@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ArchWalk",
+			"Path": "F:\\_UEVR\\ArchWalk\\Source\\ArchWalk.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ArchWalkEditor",
+			"Path": "F:\\_UEVR\\ArchWalk\\Source\\ArchWalkEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
