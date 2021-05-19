@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArchWalk.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{18B33799-7046-4F62-A793-3D42AB9F202E}</UniqueIdentifier>
+      <UniqueIdentifier>{CFE6C6FE-318D-435D-A2E6-EFB4E41969B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArchWalk.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8AD23567-38C4-4013-8BE0-D707F9575EE7}</UniqueIdentifier>
+      <UniqueIdentifier>{9EF8537B-4361-4C4D-9C53-6F6006BE3E4B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,50 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\steamvr_ue_editor_app.json">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\SteamVRBindings">
+      <UniqueIdentifier>{FE7C9592-906D-4F5B-B731-C86F164B0C14}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\rift.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
     <Filter Include="Source\ArchWalk">
-      <UniqueIdentifier>{6C21C122-76B8-4432-BF24-335C9436CB27}</UniqueIdentifier>
+      <UniqueIdentifier>{07A28032-7200-429A-AE91-D51761539632}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArchWalk\ArchWalk.Build.cs">
       <Filter>Source\ArchWalk</Filter>
@@ -39,6 +81,12 @@
       <Filter>Source\ArchWalk</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArchWalk\ArchWalkGameModeBase.h">
+      <Filter>Source\ArchWalk</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArchWalk\VRCharacter.cpp">
+      <Filter>Source\ArchWalk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArchWalk\VRCharacter.h">
       <Filter>Source\ArchWalk</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,6 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+  Creating makefile for ArchWalkEditor (game project files are newer)
+  Parsing headers for ArchWalkEditor
+    Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  F:/_UEVR/UEVRSystem/ArchWalk/Source/ArchWalk/VRCharacter.h(30) : LogCompile: Error: Unknown variable specifier 'VisibleAnywere'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(47,5): error MSB3075: The command "F:\UE_4.24\Engine\Build\BatchFiles\Build.bat ArchWalkEditor Win64 Development -Project="F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

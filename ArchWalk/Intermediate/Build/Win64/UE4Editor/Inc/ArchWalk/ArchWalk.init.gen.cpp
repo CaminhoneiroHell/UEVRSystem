@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeArchWalk_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD00AB6D1,
-				0xC1497703,
+				0xDB2B5478,
+				0x481498ED,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

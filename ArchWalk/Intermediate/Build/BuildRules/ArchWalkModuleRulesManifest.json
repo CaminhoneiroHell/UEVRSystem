@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"F:\\_UEVR\\ArchWalk\\Source\\ArchWalk\\ArchWalk.Build.cs",
-		"F:\\_UEVR\\ArchWalk\\Source\\ArchWalk.Target.cs",
-		"F:\\_UEVR\\ArchWalk\\Source\\ArchWalkEditor.Target.cs"
+		"F:\\_UEVR\\UEVRSystem\\ArchWalk\\Source\\ArchWalk\\ArchWalk.Build.cs",
+		"F:\\_UEVR\\UEVRSystem\\ArchWalk\\Source\\ArchWalk.Target.cs",
+		"F:\\_UEVR\\UEVRSystem\\ArchWalk\\Source\\ArchWalkEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
