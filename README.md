@@ -20,8 +20,8 @@
 header:
 s
 private:
-		//UPROPERTY(VisibleAnywhere)
-		class UCameraComponent* Camera;
+    //UPROPERTY(VisibleAnywhere)
+    class UCameraComponent* Camera;
 
 file:
 
@@ -84,3 +84,29 @@ void AVRCharacter::MoveRight(float throttle)
     settings -> Project settings -> Engine/Input -> Create axis mapping*
 ```
 ___
+
+
+
+### Proposed solution to attach character on camera 
+<br/><br/>
+
+* There's a restriction basically with characters you cant move their capsules.
+
+* Character must move acording the VR head, but because of the childing the player will move together.
+
+
+	* To solve this: Move the VR root to opposite direction, so it will center character and Camera on desired location.
+<br/><br/>
+
+	```c++
+	
+	VRRoot = CreateDefaultSubobject<USceneComponent>(TEXT("VRRoot"));
+	VRRoot->SetupAttachment(GetRootComponent());
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(VRRoot);	//Camera attach VR root
+
+	```
+
+
+	 

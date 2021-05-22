@@ -2,5 +2,17 @@
   Creating makefile for ArchWalkEditor (game project files are newer)
   Parsing headers for ArchWalkEditor
     Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  F:/_UEVR/UEVRSystem/ArchWalk/Source/ArchWalk/VRCharacter.h(30) : LogCompile: Error: Unknown variable specifier 'VisibleAnywere'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(47,5): error MSB3075: The command "F:\UE_4.24\Engine\Build\BatchFiles\Build.bat ArchWalkEditor Win64 Development -Project="F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Reflection code generated for ArchWalkEditor in 5.9978638 seconds
+  Building ArchWalkEditor...
+  Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] ArchWalk.init.gen.cpp
+    [2/6] VRCharacter.gen.cpp
+    [3/6] VRCharacter.cpp
+    [4/6] UE4Editor-ArchWalk-0010.lib
+       Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.exp
+    [5/6] UE4Editor-ArchWalk-0010.dll
+       Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.suppressed.exp
+    [6/6] ArchWalkEditor.target
+  Total time in Parallel executor: 1.86 seconds
+  Total execution time: 10.23 seconds

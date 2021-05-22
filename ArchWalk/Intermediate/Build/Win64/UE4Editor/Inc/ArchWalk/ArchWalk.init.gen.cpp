@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeArchWalk_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xDB2B5478,
+				0x0412C27E,
 				0x481498ED,
 				METADATA_PARAMS(nullptr, 0)
 			};

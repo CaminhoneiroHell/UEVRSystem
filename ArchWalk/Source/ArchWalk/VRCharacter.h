@@ -32,7 +32,8 @@ private:
 	void MoveRight(float throttle);
 
 private:
-		//UPROPERTY(VisibleAnywhere)
+		UPROPERTY(VisibleAnywhere)
 		class UCameraComponent* Camera;
+		class USceneComponent* VRRoot;
 
 };

@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AVRCharacter)
 
 
-#define ArchWalk_Source_ArchWalk_VRCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define ArchWalk_Source_ArchWalk_VRCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AVRCharacter, Camera); }
+
+
 #define ArchWalk_Source_ArchWalk_VRCharacter_h_9_PROLOG
 #define ArchWalk_Source_ArchWalk_VRCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -89,5 +89,6 @@
     <ClInclude Include="..\..\Source\ArchWalk\VRCharacter.h">
       <Filter>Source\ArchWalk</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
