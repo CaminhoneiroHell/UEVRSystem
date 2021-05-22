@@ -1470,3 +1470,1015 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.22-20.45.26:377][298]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.22-20.45.26:377][298]LogContentValidation: Display: Validating World /Game/MainSunTemple.MainSunTemple
 [2021.05.22-20.45.26:377][298]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainSunTemple_BuiltData.MainSunTemple_BuiltData
+[2021.05.22-21.24.33:370][241]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-21.24.33:382][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.24.33:387][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-21.24.33:387][241]PIE: New page: PIE session: MainSunTemple (22 May 2021, 23:24:33)
+[2021.05.22-21.24.33:388][241]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.24.33:452][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065481s)
+[2021.05.22-21.24.33:454][241]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-21.24.33:454][241]LogPlayLevel: PIE: World Init took: (0.001652s)
+[2021.05.22-21.24.33:454][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.067438s)
+[2021.05.22-21.24.33:493][241]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-21.24.33:502][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-21.24.33:502][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-21.24.33:503][241]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-21.24.33:503][241]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: Channel Order:
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-21.24.33:540][241]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-21.24.33:553][241]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.24.33:555][241]LogInit: FAudioDevice initialized.
+[2021.05.22-21.24.33:568][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.24.33:604][241]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-21.24.33:625][241]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-22.24.33
+[2021.05.22-21.24.33:625][241]LogWorld: Bringing up level for play took: 0.020179
+[2021.05.22-21.24.33:626][241]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.05.22-21.24.33:627][241]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.24.33:627][241]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.24.33:627][241]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.24.33:628][241]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.24.33:634][241]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple 0.371
+[2021.05.22-21.24.33:635][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.24.48:804][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.24.48:804][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.24.48:804][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.24.48:876][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.24.48:876][843]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.24.48:948][843]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-21.24.48:950][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.24.48:951][843]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-21.24.48:955][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.24.48:961][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-21.24.48:962][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.24.48:967][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.24.48:997][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.24.49:009][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.05.22-21.24.49:032][844]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.05.22-21.27.11:012][ 87]LogSlate: Took 0.004280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.22-21.31.47:224][329]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.31.47:224][329]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.31.47:224][329]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.31.47:244][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.31.47:245][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.31.47:245][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.31.47:250][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.31.47:251][329]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:236][799]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.02:236][799]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.02:237][799]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.02:244][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.32.02:245][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.32.02:246][799]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:292][895]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.14:292][895]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.14:293][895]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.14:300][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:301][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.32.14:302][895]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:908][146]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.16:908][146]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.16:908][146]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.16:915][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.32.16:915][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.32.16:915][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.32.16:916][146]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:763][227]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.17:763][227]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.17:763][227]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.32.17:771][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.32.17:771][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.32.17:771][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.32.17:773][227]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:772][318]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.33.03:773][318]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.33.03:773][318]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.33.03:782][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.33.03:782][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.33.03:782][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.33.03:790][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Teleport
+[2021.05.22-21.33.03:791][318]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:145][ 27]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.37.27:145][ 27]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.37.27:145][ 27]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../../_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings
+[2021.05.22-21.37.27:153][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest ../../../../_UEVR/UEVRSystem/ArchWalk/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2021.05.22-21.37.27:154][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [20860][application.generated.ue.archwalk-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2021.05.22-21.37.27:154][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: F:/_UEVR/UEVRSystem/ArchWalk/Config/SteamVRBindings/steamvr_manifest.json
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.05.22-21.37.27:155][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Teleport
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Teleport
+[2021.05.22-21.37.27:156][ 27]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.05.22-21.44.02:227][736]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.22-21.44.02:234][736]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.22-21.44.04:439][927]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-21.44.04:451][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.44.04:451][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-21.44.04:451][927]PIE: New page: PIE session: MainSunTemple (22 May 2021, 23:44:04)
+[2021.05.22-21.44.04:451][927]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.44.04:506][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054382s)
+[2021.05.22-21.44.04:507][927]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-21.44.04:507][927]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2021.05.22-21.44.04:507][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.055725s)
+[2021.05.22-21.44.04:675][927]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-21.44.04:679][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-21.44.04:679][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-21.44.04:680][927]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-21.44.04:680][927]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-21.44.04:717][927]LogAudioMixer: Display: Channel Order:
+[2021.05.22-21.44.04:718][927]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-21.44.04:718][927]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-21.44.04:750][927]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.44.04:753][927]LogInit: FAudioDevice initialized.
+[2021.05.22-21.44.04:765][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.44.04:796][927]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-21.44.04:817][927]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-22.44.04
+[2021.05.22-21.44.04:817][927]LogWorld: Bringing up level for play took: 0.019957
+[2021.05.22-21.44.04:818][927]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.05.22-21.44.04:819][927]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.44.04:819][927]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.44.04:819][927]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.44.04:821][927]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.44.04:824][927]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple -0.438
+[2021.05.22-21.44.04:824][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.44.06:097][969]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.44.06:100][969]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-21.44.06:119][969]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-21.44.06:120][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.44.06:182][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.44.06:182][969]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.44.06:234][969]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-21.44.06:237][969]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.44.06:237][969]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-21.44.06:240][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.44.06:247][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-21.44.06:248][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.44.06:253][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.44.06:284][969]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.44.06:345][969]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.05.22-21.44.06:367][970]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.05.22-21.44.07:532][ 57]Candidate modules for hot reload:
+[2021.05.22-21.44.07:532][ 57]  ArchWalk
+[2021.05.22-21.44.07:533][ 57]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,6558 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-21.44.07:535][ 57]Warning: Starting HotReload took  0.0s.
+[2021.05.22-21.44.24:079][544]CompilerResultsLog: New page: Compilation - 22 May 2021, 23:44:24
+[2021.05.22-21.44.24:079][544]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Parsing headers for ArchWalkEditor
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Reflection code generated for ArchWalkEditor in 9.0615958 seconds
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Building 5 actions with 8 processes...
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   [1/5] VRCharacter.gen.cpp
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   [2/5] VRCharacter.cpp
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   [3/5] UE4Editor-ArchWalk-6558.lib
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6558.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6558.exp
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   [4/5] UE4Editor-ArchWalk-6558.dll
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6558.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6558.suppressed.exp
+[2021.05.22-21.44.24:080][544]CompilerResultsLog:   [5/5] ArchWalkEditor.target
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Total time in Parallel executor: 5.80 seconds
+[2021.05.22-21.44.24:080][544]CompilerResultsLog: Total execution time: 16.43 seconds
+[2021.05.22-21.44.24:080][544]LogMainFrame: MainFrame: Module compiling took 16.553 seconds
+[2021.05.22-21.44.24:110][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.05.22-21.44.24:157][544]LogContentBrowser: Native class hierarchy updated for 'ArchWalk' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2021.05.22-21.44.24:166][544]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.22-21.44.24:281][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.22-21.44.24:302][544]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 3019 classes and 722 folders.
+[2021.05.22-21.44.24:302][544]Display: HotReload took 16.8s.
+[2021.05.22-21.44.29:139][942]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-21.44.29:153][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.44.29:153][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-21.44.29:154][942]PIE: New page: PIE session: MainSunTemple (22 May 2021, 23:44:29)
+[2021.05.22-21.44.29:154][942]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.44.29:209][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055224s)
+[2021.05.22-21.44.29:210][942]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-21.44.29:210][942]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2021.05.22-21.44.29:210][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.056511s)
+[2021.05.22-21.44.29:286][942]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-21.44.29:287][942]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-21.44.29:287][942]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-21.44.29:288][942]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-21.44.29:288][942]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-21.44.29:319][942]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-21.44.29:319][942]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: Channel Order:
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-21.44.29:320][942]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-21.44.29:331][942]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-21.44.29:332][942]LogInit: FAudioDevice initialized.
+[2021.05.22-21.44.29:349][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.44.29:397][942]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-21.44.29:416][942]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-22.44.29
+[2021.05.22-21.44.29:417][942]LogWorld: Bringing up level for play took: 0.018739
+[2021.05.22-21.44.29:417][942]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.05.22-21.44.29:421][942]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.44.29:421][942]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-21.44.29:421][942]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.44.29:422][942]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-21.44.29:426][942]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple 0.164
+[2021.05.22-21.44.29:426][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.45.06:967][606]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.45.06:972][606]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-21.45.06:992][606]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-21.45.06:992][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.45.07:030][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-21.45.07:030][606]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-21.45.07:100][606]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-21.45.07:102][606]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.45.07:103][606]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-21.45.07:106][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.45.07:115][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-21.45.07:115][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-21.45.07:121][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-21.45.07:166][606]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-21.45.07:192][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.05.22-21.45.07:222][607]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.05.22-22.05.38:807][506]Candidate modules for hot reload:
+[2021.05.22-22.05.38:807][506]  ArchWalk
+[2021.05.22-22.05.38:807][506]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,6210 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.05.38:810][506]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.05.52:885][910]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:05:52
+[2021.05.22-22.05.52:885][910]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.05.52:885][910]CompilerResultsLog: Parsing headers for ArchWalkEditor
+[2021.05.22-22.05.52:885][910]CompilerResultsLog:   Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.05.22-22.05.52:885][910]CompilerResultsLog: Reflection code generated for ArchWalkEditor in 8.8315139 seconds
+[2021.05.22-22.05.52:885][910]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.05.52:886][910]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.05.52:886][910]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [1/6] ArchWalk.init.gen.cpp
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [2/6] VRCharacter.gen.cpp
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [3/6] VRCharacter.cpp
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [4/6] UE4Editor-ArchWalk-6210.lib
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6210.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6210.exp
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [5/6] UE4Editor-ArchWalk-6210.dll
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6210.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-6210.suppressed.exp
+[2021.05.22-22.05.52:886][910]CompilerResultsLog:   [6/6] ArchWalkEditor.target
+[2021.05.22-22.05.52:886][910]CompilerResultsLog: Total time in Parallel executor: 3.55 seconds
+[2021.05.22-22.05.52:886][910]CompilerResultsLog: Total execution time: 13.97 seconds
+[2021.05.22-22.05.52:886][910]LogMainFrame: MainFrame: Module compiling took 14.084 seconds
+[2021.05.22-22.05.52:924][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.05.22-22.05.52:961][910]LogClass: Could not find existing class VRCharacter in package /Script/ArchWalk for HotReload, assuming new class
+[2021.05.22-22.05.52:975][910]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2021.05.22-22.05.53:451][910]LogContentBrowser: Native class hierarchy updated for 'ArchWalk' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.05.22-22.05.53:458][910]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.22-22.05.53:566][910]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.05.22-22.05.53:585][910]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3019 classes and 722 folders.
+[2021.05.22-22.05.53:585][910]Display: HotReload took 14.8s.
+[2021.05.22-22.06.20:691][640]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.06.20:707][640]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.06.20:707][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.06.20:707][640]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:06:20)
+[2021.05.22-22.06.20:707][640]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.06.20:773][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065453s)
+[2021.05.22-22.06.20:774][640]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.06.20:774][640]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2021.05.22-22.06.20:775][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.067307s)
+[2021.05.22-22.06.20:872][640]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.06.20:873][640]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.06.20:873][640]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.06.20:873][640]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.06.20:920][640]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.06.20:933][640]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.06.20:946][640]LogInit: FAudioDevice initialized.
+[2021.05.22-22.06.20:957][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.06.21:007][640]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.06.21:035][640]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.06.21
+[2021.05.22-22.06.21:036][640]LogWorld: Bringing up level for play took: 0.027533
+[2021.05.22-22.06.21:036][640]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.05.22-22.06.21:037][640]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.06.21:037][640]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.06.21:038][640]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.06.21:038][640]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.06.21:041][640]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple -0.222
+[2021.05.22-22.06.21:042][640]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.07.07:994][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.07.08:017][729]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-22.07.08:037][729]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-22.07.08:038][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.07.08:058][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.07.08:058][729]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.07.08:117][729]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.07.08:120][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.07.08:121][729]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.07.08:124][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.07.08:131][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.07.08:132][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.07.08:137][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.07.08:169][729]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.07.08:181][729]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.05.22-22.07.08:207][730]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.05.22-22.24.55:573][365]Candidate modules for hot reload:
+[2021.05.22-22.24.55:573][365]  ArchWalk
+[2021.05.22-22.24.55:573][365]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,894 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.24.55:576][365]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:25:07
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Parsing headers for ArchWalkEditor
+[2021.05.22-22.25.07:584][534]CompilerResultsLog:   Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Reflection code generated for ArchWalkEditor in 8.1522106 seconds
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.25.07:584][534]CompilerResultsLog: Building 5 actions with 8 processes...
+[2021.05.22-22.25.07:584][534]CompilerResultsLog:   [1/5] VRCharacter.gen.cpp
+[2021.05.22-22.25.07:584][534]CompilerResultsLog:   F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Inc\ArchWalk\VRCharacter.gen.cpp(157): fatal error C1088: Cannot flush compiler intermediate file: 'C:\Users\vmont\AppData\Local\Temp\_CL_c2f1f0d7ex': No space left on device
+[2021.05.22-22.25.07:584][534]CompilerResultsLog:   [2/5] VRCharacter.cpp
+[2021.05.22-22.25.07:584][534]LogMainFrame: MainFrame: Module compiling took 12.016 seconds
+[2021.05.22-22.25.07:584][534]Warning: HotReload failed, recompile failed
+[2021.05.22-22.26.51:899][542]Candidate modules for hot reload:
+[2021.05.22-22.26.51:899][542]  ArchWalk
+[2021.05.22-22.26.51:899][542]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,2081 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.26.51:901][542]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:26:55
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:   [1/4] VRCharacter.gen.cpp
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:   [2/4] UE4Editor-ArchWalk-2081.lib
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-2081.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-2081.exp
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:   [3/4] UE4Editor-ArchWalk-2081.dll
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-2081.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-2081.suppressed.exp
+[2021.05.22-22.26.55:934][904]CompilerResultsLog:   [4/4] ArchWalkEditor.target
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Total time in Parallel executor: 2.55 seconds
+[2021.05.22-22.26.55:934][904]CompilerResultsLog: Total execution time: 3.93 seconds
+[2021.05.22-22.26.55:934][904]LogMainFrame: MainFrame: Module compiling took 4.041 seconds
+[2021.05.22-22.26.55:974][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.05.22-22.26.56:014][904]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2021.05.22-22.26.56:492][904]LogContentBrowser: Native class hierarchy updated for 'ArchWalk' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2021.05.22-22.26.56:496][904]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.22-22.26.56:603][904]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.05.22-22.26.56:625][904]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3019 classes and 722 folders.
+[2021.05.22-22.26.56:625][904]Display: HotReload took  4.7s.
+[2021.05.22-22.26.58:600][ 63]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.26.58:616][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.26.58:616][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.26.58:616][ 63]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:26:58)
+[2021.05.22-22.26.58:617][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.26.58:678][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061379s)
+[2021.05.22-22.26.58:679][ 63]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.26.58:680][ 63]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2021.05.22-22.26.58:680][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.062948s)
+[2021.05.22-22.26.58:769][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.26.58:770][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.26.58:770][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.26.58:771][ 63]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.26.58:771][ 63]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.26.58:808][ 63]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.26.58:820][ 63]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.26.58:824][ 63]LogInit: FAudioDevice initialized.
+[2021.05.22-22.26.58:837][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.26.58:884][ 63]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.26.58:906][ 63]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.26.58
+[2021.05.22-22.26.58:907][ 63]LogWorld: Bringing up level for play took: 0.021654
+[2021.05.22-22.26.58:907][ 63]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.05.22-22.26.58:909][ 63]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.26.58:909][ 63]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.26.58:909][ 63]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.26.58:910][ 63]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.26.58:913][ 63]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple -0.35
+[2021.05.22-22.26.58:914][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.03:046][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.03:046][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.03:046][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.03:115][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.27.03:115][208]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.27.03:185][208]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.27.03:187][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.03:188][208]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.27.03:192][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.27.03:201][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.27.03:202][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.03:208][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.27.03:246][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.03:279][208]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.05.22-22.27.03:308][209]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.05.22-22.27.24:028][108]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.27.24:040][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.24:040][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.27.24:040][108]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:27:24)
+[2021.05.22-22.27.24:041][108]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.27.24:110][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070593s)
+[2021.05.22-22.27.24:111][108]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.27.24:111][108]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2021.05.22-22.27.24:111][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.071753s)
+[2021.05.22-22.27.24:144][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.27.24:147][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.27.24:147][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.27.24:148][108]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.27.24:148][108]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.27.24:188][108]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.27.24:202][108]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.27.24:204][108]LogInit: FAudioDevice initialized.
+[2021.05.22-22.27.24:214][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.27.24:250][108]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.27.24:273][108]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.27.24
+[2021.05.22-22.27.24:274][108]LogWorld: Bringing up level for play took: 0.022498
+[2021.05.22-22.27.24:274][108]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.05.22-22.27.24:276][108]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.27.24:276][108]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.27.24:276][108]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.27.24:277][108]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.27.24:280][108]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple 1.018
+[2021.05.22-22.27.24:281][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.45:861][ 51]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.45:880][ 51]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-22.27.45:900][ 51]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-22.27.45:900][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.45:928][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.27.45:928][ 51]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.27.45:991][ 51]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.27.45:993][ 51]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.45:994][ 51]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.27.45:997][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.27.46:008][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.27.46:008][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.46:013][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.27.46:046][ 51]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.27.46:056][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.05.22-22.27.46:080][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.05.22-22.27.48:507][251]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.27.48:517][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.27.48:517][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.27.48:517][251]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:27:48)
+[2021.05.22-22.27.48:517][251]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.27.48:572][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054047s)
+[2021.05.22-22.27.48:572][251]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.27.48:573][251]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2021.05.22-22.27.48:573][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.055220s)
+[2021.05.22-22.27.48:604][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.27.48:605][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.27.48:605][251]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.27.48:605][251]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.27.48:637][251]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.27.48:648][251]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.27.48:651][251]LogInit: FAudioDevice initialized.
+[2021.05.22-22.27.48:662][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.27.48:702][251]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.27.48:722][251]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.27.48
+[2021.05.22-22.27.48:722][251]LogWorld: Bringing up level for play took: 0.019180
+[2021.05.22-22.27.48:723][251]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.05.22-22.27.48:724][251]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.27.48:724][251]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.27.48:724][251]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.27.48:725][251]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.27.48:728][251]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple -0.535
+[2021.05.22-22.27.48:728][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.28.56:837][290]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.28.56:842][290]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-22.28.56:862][290]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-22.28.56:862][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.28.56:911][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.28.56:911][290]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.28.56:978][290]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.28.56:981][290]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.28.56:981][290]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.28.56:985][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.28.56:991][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.28.56:991][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.28.56:998][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.28.57:033][290]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.28.57:045][290]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.05.22-22.28.57:069][291]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.05.22-22.45.52:581][178]Candidate modules for hot reload:
+[2021.05.22-22.45.52:581][178]  ArchWalk
+[2021.05.22-22.45.52:581][178]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,6901 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.45.52:584][178]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.45.56:393][504]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:45:56
+[2021.05.22-22.45.56:393][504]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.45.56:393][504]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.45.56:394][504]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.45.56:394][504]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.05.22-22.45.56:394][504]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2021.05.22-22.45.56:394][504]CompilerResultsLog:    F:\_UEVR\UEVRSystem\ArchWalk\Source\ArchWalk\VRCharacter.cpp(108) : error C2664: 'void FVectorIntervalFixed32NoW::ToVector(FVector &,const float *,const float *) const': cannot convert argument 1 from 'FVector *' to 'FVector &'
+[2021.05.22-22.45.56:394][504]CompilerResultsLog:   F:\UE_4.24\Engine\Source\Runtime\Engine\Public\AnimationCompression.h(369): note: see declaration of 'FVectorIntervalFixed32NoW::ToVector'
+[2021.05.22-22.45.56:394][504]CompilerResultsLog:    F:\_UEVR\UEVRSystem\ArchWalk\Source\ArchWalk\VRCharacter.cpp(108) : error C2143: syntax error: missing ')' before ';'
+[2021.05.22-22.45.56:394][504]LogMainFrame: MainFrame: Module compiling took 3.819 seconds
+[2021.05.22-22.45.56:394][504]Warning: HotReload failed, recompile failed
+[2021.05.22-22.46.29:192][424]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-22.46.29:208][424]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-22.46.30:176][519]Candidate modules for hot reload:
+[2021.05.22-22.46.30:176][519]  ArchWalk
+[2021.05.22-22.46.30:176][519]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,6095 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.46.30:178][519]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.46.33:019][755]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:46:33
+[2021.05.22-22.46.33:019][755]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.46.33:019][755]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.46.33:021][755]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.46.33:021][755]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.05.22-22.46.33:021][755]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2021.05.22-22.46.33:021][755]CompilerResultsLog:    F:\_UEVR\UEVRSystem\ArchWalk\Source\ArchWalk\VRCharacter.cpp(108) : error C2664: 'void FVectorIntervalFixed32NoW::ToVector(FVector &,const float *,const float *) const': cannot convert argument 1 from 'FVector *' to 'FVector &'
+[2021.05.22-22.46.33:021][755]CompilerResultsLog:   F:\UE_4.24\Engine\Source\Runtime\Engine\Public\AnimationCompression.h(369): note: see declaration of 'FVectorIntervalFixed32NoW::ToVector'
+[2021.05.22-22.46.33:021][755]LogMainFrame: MainFrame: Module compiling took 2.851 seconds
+[2021.05.22-22.46.33:021][755]Warning: HotReload failed, recompile failed
+[2021.05.22-22.51.52:364][762]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-22.51.52:382][762]LogSlate: Window 'Message Log' being destroyed
+[2021.05.22-22.51.52:986][821]Candidate modules for hot reload:
+[2021.05.22-22.51.52:986][821]  ArchWalk
+[2021.05.22-22.51.52:986][821]Launching UnrealBuildTool... [F:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArchWalk,5661 Win64 Development -TargetType=Editor -Project="F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject" "F:/_UEVR/UEVRSystem/ArchWalk/ArchWalk.uproject"  -IgnoreJunk]
+[2021.05.22-22.51.52:988][821]Warning: Starting HotReload took  0.0s.
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: New page: Compilation - 23 May 2021, 00:51:58
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Building ArchWalkEditor...
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:   [1/4] VRCharacter.cpp
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:   [2/4] UE4Editor-ArchWalk-5661.lib
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-5661.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-5661.exp
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:   [3/4] UE4Editor-ArchWalk-5661.dll
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:      Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-5661.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-5661.suppressed.exp
+[2021.05.22-22.51.58:230][299]CompilerResultsLog:   [4/4] ArchWalkEditor.target
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2021.05.22-22.51.58:230][299]CompilerResultsLog: Total execution time: 4.62 seconds
+[2021.05.22-22.51.58:231][299]LogMainFrame: MainFrame: Module compiling took 5.250 seconds
+[2021.05.22-22.51.58:270][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.05.22-22.51.58:316][299]LogContentBrowser: Native class hierarchy updated for 'ArchWalk' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2021.05.22-22.51.58:322][299]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.22-22.51.58:418][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.05.22-22.51.58:436][299]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3019 classes and 722 folders.
+[2021.05.22-22.51.58:436][299]Display: HotReload took  5.5s.
+[2021.05.22-22.54.50:788][364]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.54.50:807][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.54.50:807][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.54.50:807][364]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:54:50)
+[2021.05.22-22.54.50:807][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.54.50:876][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069067s)
+[2021.05.22-22.54.50:877][364]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.54.50:877][364]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2021.05.22-22.54.50:878][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.070596s)
+[2021.05.22-22.54.50:972][364]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.54.50:972][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.54.50:972][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.54.50:973][364]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.54.50:973][364]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.54.51:010][364]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.54.51:025][364]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.54.51:027][364]LogInit: FAudioDevice initialized.
+[2021.05.22-22.54.51:037][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.54.51:076][364]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.54.51:100][364]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.54.51
+[2021.05.22-22.54.51:100][364]LogWorld: Bringing up level for play took: 0.023677
+[2021.05.22-22.54.51:101][364]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.05.22-22.54.51:103][364]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.54.51:103][364]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.54.51:103][364]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.54.51:104][364]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.54.51:107][364]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple -0.156
+[2021.05.22-22.54.51:108][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.54.54:627][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.54.54:627][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.54.54:627][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.54.54:697][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.54.54:698][514]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.54.54:763][514]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.54.54:765][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.54.54:766][514]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.54.54:769][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.54.54:777][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.54.54:778][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.54.54:782][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.54.54:819][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.54.54:830][514]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.05.22-22.54.54:853][515]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.05.22-22.55.29:905][828]Cmd: SELECT NONE
+[2021.05.22-22.55.34:004][226]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.55.34:014][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.55.34:014][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.55.34:015][226]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:55:34)
+[2021.05.22-22.55.34:015][226]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.55.34:072][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057398s)
+[2021.05.22-22.55.34:073][226]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.55.34:073][226]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2021.05.22-22.55.34:073][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.058613s)
+[2021.05.22-22.55.34:109][226]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.55.34:113][226]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.55.34:113][226]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.55.34:113][226]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.55.34:149][226]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.55.34:163][226]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.55.34:165][226]LogInit: FAudioDevice initialized.
+[2021.05.22-22.55.34:176][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.55.34:208][226]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.55.34:227][226]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.55.34
+[2021.05.22-22.55.34:228][226]LogWorld: Bringing up level for play took: 0.018393
+[2021.05.22-22.55.34:228][226]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.22-22.55.34:229][226]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.55.34:230][226]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.55.34:230][226]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.55.34:231][226]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.55.34:234][226]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple 0.971
+[2021.05.22-22.55.34:234][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.55.35:573][273]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.55.35:573][273]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.55.35:574][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.55.35:646][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.55.35:646][273]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.55.35:695][273]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.55.35:698][273]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.55.35:698][273]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.55.35:701][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.55.35:711][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.55.35:712][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.55.35:717][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.55.35:750][273]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.55.35:762][273]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.05.22-22.55.35:784][274]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.22-22.56.17:870][388]LogCore: Display: AppLifetime: Application will enter background
+[2021.05.22-22.56.22:582][790]LogCore: Display: AppLifetime: Application has entered foreground
+[2021.05.22-22.56.25:290][ 35]LogTemp: Repeating last play command: VR Preview
+[2021.05.22-22.56.25:301][ 35]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.56.25:301][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.22-22.56.25:301][ 35]PIE: New page: PIE session: MainSunTemple (23 May 2021, 00:56:25)
+[2021.05.22-22.56.25:301][ 35]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.56.25:353][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051885s)
+[2021.05.22-22.56.25:354][ 35]LogAIModule: Creating AISystem for world MainSunTemple
+[2021.05.22-22.56.25:354][ 35]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2021.05.22-22.56.25:354][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainSunTemple.MainSunTemple to /Game/UEDPIE_0_MainSunTemple.MainSunTemple (0.053062s)
+[2021.05.22-22.56.25:386][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.22-22.56.25:390][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.22-22.56.25:390][ 35]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.22-22.56.25:390][ 35]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.22-22.56.25:424][ 35]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Name: HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Is Default: Yes
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Sample Rate: 48000
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Channel Count Used: 2
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Device Channel Count: 2
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: Channel Order:
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.22-22.56.25:425][ 35]LogAudioMixer: Display: 1: FrontRight
+[2021.05.22-22.56.25:439][ 35]LogAudioMixer: Display: Using Audio Device HTC-VIVE (NVIDIA High Definition Audio)
+[2021.05.22-22.56.25:441][ 35]LogInit: FAudioDevice initialized.
+[2021.05.22-22.56.25:452][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.56.25:494][ 35]LogLoad: Game class is 'BP_VRGameMode_C'
+[2021.05.22-22.56.25:515][ 35]LogWorld: Bringing World /Game/UEDPIE_0_MainSunTemple.MainSunTemple up for play (max tick rate 0) at 2021.05.22-23.56.25
+[2021.05.22-22.56.25:515][ 35]LogWorld: Bringing up level for play took: 0.020421
+[2021.05.22-22.56.25:515][ 35]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.22-22.56.25:517][ 35]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.56.25:517][ 35]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.22-22.56.25:517][ 35]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.56.25:518][ 35]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.22-22.56.25:520][ 35]PIE: Play in editor start time for /Game/UEDPIE_0_MainSunTemple 0.258
+[2021.05.22-22.56.25:521][ 35]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.56.45:725][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.56.45:729][916]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.05.22-22.56.45:749][916]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.05.22-22.56.45:750][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.56.45:794][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.22-22.56.45:795][916]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainSunTemple
+[2021.05.22-22.56.45:850][916]LogSlate: Window 'ArchWalk Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.05.22-22.56.45:852][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.56.45:853][916]LogWorld: UWorld::CleanupWorld for MainSunTemple, bSessionEnded=true, bCleanupResources=true
+[2021.05.22-22.56.45:856][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.56.45:860][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.22-22.56.45:860][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainSunTemple.MainSunTemple:PersistentLevel' has LevelScriptBlueprint '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple' with GeneratedClass '/Game/MainSunTemple.MainSunTemple_C' with ClassGeneratedBy '/Game/MainSunTemple.MainSunTemple:PersistentLevel.MainSunTemple'
+[2021.05.22-22.56.45:867][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.22-22.56.45:900][916]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.05.22-22.56.45:911][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.05.22-22.56.45:935][917]LogPlayLevel: Display: Destroying online subsystem :Context_28

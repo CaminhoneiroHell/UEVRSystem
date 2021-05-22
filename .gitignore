@@ -74,4 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 #Temporary assets
-ArchWalk/Content/TempleAssets/
+ArchWalk/Content/TempleAssets/*

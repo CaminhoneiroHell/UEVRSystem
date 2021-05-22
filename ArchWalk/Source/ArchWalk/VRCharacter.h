@@ -29,9 +29,14 @@ public:
 private:
 
 	void UpdateDestinationMarker();
-
+	
+	//Axis Input Handling
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+	
+	//Action Input Handling
+	void BeginTeleport();
+	void FinishTeleport();
 
 private:
 		UPROPERTY(VisibleAnywhere)
@@ -45,4 +50,7 @@ private:
 
 		UPROPERTY(VisibleAnywhere)
 		float MaxTeleportDistance = 1000; //10 meters
+
+		UPROPERTY(VisibleAnywhere)
+		float TeleportFadeTime = 1; //In seconds
 };

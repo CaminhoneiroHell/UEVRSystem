@@ -35,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TeleportFadeTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TeleportFadeTime;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxTeleportDistance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxTeleportDistance;
@@ -65,6 +69,15 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 		{ "ModuleRelativePath", "VRCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportFadeTime_MetaData[] = {
+		{ "Category", "VRCharacter" },
+		{ "Comment", "//10 meters\n" },
+		{ "ModuleRelativePath", "VRCharacter.h" },
+		{ "ToolTip", "10 meters" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportFadeTime = { "TeleportFadeTime", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVRCharacter, TeleportFadeTime), METADATA_PARAMS(Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportFadeTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportFadeTime_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVRCharacter_Statics::NewProp_MaxTeleportDistance_MetaData[] = {
 		{ "Category", "VRCharacter" },
@@ -97,6 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVRCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVRCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AVRCharacter_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVRCharacter_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AVRCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportFadeTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVRCharacter_Statics::NewProp_MaxTeleportDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVRCharacter_Statics::NewProp_DestinationMarker,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AVRCharacter_Statics::NewProp_VRRoot,
@@ -129,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVRCharacter, 3322401302);
+	IMPLEMENT_CLASS(AVRCharacter, 2862139281);
 	template<> ARCHWALK_API UClass* StaticClass<AVRCharacter>()
 	{
 		return AVRCharacter::StaticClass();

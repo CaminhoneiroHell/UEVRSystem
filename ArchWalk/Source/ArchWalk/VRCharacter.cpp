@@ -6,6 +6,9 @@
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Camera/PlayerCameraManager.h"
+#include "TimerManager.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -38,7 +41,7 @@ void AVRCharacter::Tick(float DeltaTime)
 
 	FVector NewCameraOffset = Camera->GetComponentLocation() - GetActorLocation();
 	NewCameraOffset.Z = 0; //Block move up or down
-	//FVector::VectorPlaneProject();
+	//FVector::VectorPlaneProject();	//Flatten or project a direction vector onto the vertical plane aligned with the direction the player is looking
 	AddActorWorldOffset(NewCameraOffset);
 	VRRoot->AddWorldOffset(-NewCameraOffset);
 
@@ -71,6 +74,8 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
+
+	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released ,this, &AVRCharacter::BeginTeleport);
 }
 
 void AVRCharacter::MoveForward(float throttle)
@@ -81,5 +86,31 @@ void AVRCharacter::MoveForward(float throttle)
 void AVRCharacter::MoveRight(float throttle)
 {
 	AddMovementInput(throttle * Camera->GetRightVector());
+}
+
+void AVRCharacter::BeginTeleport()
+{
+	APlayerController* PC = Cast<APlayerController>(GetController());
+	
+	if (PC != nullptr) { 
+		PC->PlayerCameraManager->StartCameraFade(0,1,TeleportFadeTime, FLinearColor::Black); 
+	}
+	
+	FTimerHandle Handle;
+	GetWorldTimerManager().SetTimer(Handle, this, &AVRCharacter::FinishTeleport, TeleportFadeTime, false);
+}
+
+void AVRCharacter::FinishTeleport()
+{
+
+	//UTexture* ut = static_cast<UTexture*>(ArrayWithUTextureRenderTarget2D[s]);
+	SetActorLocation(DestinationMarker->GetComponentLocation() + static_cast<FVector>(GetCapsuleComponent()->GetScaledCapsuleHalfHeight()));
+	
+	APlayerController* PC = Cast<APlayerController>(GetController());
+
+	if (PC != nullptr) {
+		PC->PlayerCameraManager->StartCameraFade(1, 0, TeleportFadeTime, FLinearColor::Black);
+	}
+
 }
 

@@ -7,3 +7,7 @@ F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.genera
 F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Inc\ArchWalk\VRCharacter.generated.h
 F:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+F:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+F:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
