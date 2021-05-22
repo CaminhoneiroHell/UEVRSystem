@@ -27,6 +27,7 @@ AVRCharacter::AVRCharacter()
 void AVRCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	DestinationMarker->SetVisibility(false);
 	
 }
 
@@ -52,8 +53,14 @@ void AVRCharacter::UpdateDestinationMarker()
 	FHitResult HitResult;
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
 
-	if (bHit) {
+	if (bHit) 
+	{
+		DestinationMarker->SetVisibility(true);
 		DestinationMarker->SetWorldLocation(HitResult.Location);
+	}
+	else 
+	{
+		DestinationMarker->SetVisibility(false);
 	}
 }
 

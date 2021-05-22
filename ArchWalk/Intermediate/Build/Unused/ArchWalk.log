@@ -1,18 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\_UEVR\UEVRSystem).
-  Creating makefile for ArchWalkEditor (game project files are newer)
+  Creating makefile for ArchWalkEditor (no existing makefile)
   Parsing headers for ArchWalkEditor
-    Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\Development\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ArchWalkEditor in 5.9978638 seconds
+    Running UnrealHeaderTool "F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" "F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\ArchWalkEditor\DebugGame\ArchWalkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArchWalkEditor in 6.9643336 seconds
   Building ArchWalkEditor...
   Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] ArchWalk.init.gen.cpp
-    [2/6] VRCharacter.gen.cpp
-    [3/6] VRCharacter.cpp
-    [4/6] UE4Editor-ArchWalk-0010.lib
-       Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.exp
-    [5/6] UE4Editor-ArchWalk-0010.dll
-       Creating library F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.suppressed.lib and object F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk-0010.suppressed.exp
-    [6/6] ArchWalkEditor.target
-  Total time in Parallel executor: 1.86 seconds
-  Total execution time: 10.23 seconds
+  Building 11 actions with 8 processes...
+    [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
+    [3/11] VRCharacter.cpp
+c1xx : fatal error C1356: unable to find mspdbcore.dll
+    [4/11] ArchWalk.init.gen.cpp
+c1xx : fatal error C1356: unable to find mspdbcore.dll
+    [5/11] VRCharacter.gen.cpp
+c1xx : fatal error C1356: unable to find mspdbcore.dll
+    [6/11] ArchWalk.cpp
+    [7/11] ArchWalkGameModeBase.cpp
+    [8/11] ArchWalkGameModeBase.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(47,5): error MSB3075: The command "F:\UE_4.24\Engine\Build\BatchFiles\Build.bat ArchWalkEditor Win64 DebugGame -Project="F:\_UEVR\UEVRSystem\ArchWalk\ArchWalk.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

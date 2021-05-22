@@ -122,6 +122,9 @@ ___
 <br/><br/>
 
 ```c++
+//In Editor create an primitive object attached on player (Use blueprints to it, apparently is required go very deep in UE classes hyerarch to create primitives in c++)
+
+
 //header:
 private:
 
@@ -151,14 +154,22 @@ void AVRCharacter::UpdateDestinationMarker()
 	}
 }
 
+
+
+// Problem: If there's collision our primitive will be hit by the ray that is being projected to the worod.
+
+// Solution: BP Editor -> DestinationMarker -> Details Panel -> Collision -> Collision Presets -> Set to NoCollision
+
+
+
 ```
 
 
 
 
 <br/><br/>
-## <b> Unity to Unreal comparings </b> 
-<br/><br/>
+## <b> Unity to Unreal glossary </b> 
+
 |Unity | Unreal | API Reference |
 |-----|-------| ----- |
 |Mesh| UStaticMeshComponent|https://docs.unrealengine.com/en-US/API/Runtime/Engine/Components/UStaticMeshComponent/index.html
