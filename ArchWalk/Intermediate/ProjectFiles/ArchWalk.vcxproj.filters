@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArchWalk.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CFE6C6FE-318D-435D-A2E6-EFB4E41969B9}</UniqueIdentifier>
+      <UniqueIdentifier>{D1D3B32B-633B-410C-8A6F-E24DB6A11584}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArchWalk.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ArchWalkEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\ArchWalk.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9EF8537B-4361-4C4D-9C53-6F6006BE3E4B}</UniqueIdentifier>
+      <UniqueIdentifier>{2F81A5DA-28DD-4294-B3A8-0E82EF194CF1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,11 +24,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\steamvr_ue_editor_app.json">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\SteamVRBindings">
-      <UniqueIdentifier>{FE7C9592-906D-4F5B-B731-C86F164B0C14}</UniqueIdentifier>
+      <UniqueIdentifier>{633BAA0E-41AA-4892-AA73-710482375D28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\SteamVRBindings\gamepad.json">
       <Filter>Config\SteamVRBindings</Filter>
@@ -66,7 +70,7 @@
       <Filter>Config\SteamVRBindings</Filter>
     </None>
     <Filter Include="Source\ArchWalk">
-      <UniqueIdentifier>{07A28032-7200-429A-AE91-D51761539632}</UniqueIdentifier>
+      <UniqueIdentifier>{59AB44B2-29A3-4FF6-A8B3-D7B63A086498}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArchWalk\ArchWalk.Build.cs">
       <Filter>Source\ArchWalk</Filter>
@@ -89,6 +93,26 @@
     <ClInclude Include="..\..\Source\ArchWalk\VRCharacter.h">
       <Filter>Source\ArchWalk</Filter>
     </ClInclude>
-    <None Include="cpp.hint" />
+    <Filter Include="Source\ArchWalk\.vs">
+      <UniqueIdentifier>{3A8318CA-148A-4066-A9AD-3F4EED82B37D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArchWalk\.vs\ProjectSettings.json">
+      <Filter>Source\ArchWalk\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\ArchWalk\.vs\slnx.sqlite">
+      <Filter>Source\ArchWalk\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\ArchWalk\.vs\VSWorkspaceState.json">
+      <Filter>Source\ArchWalk\.vs</Filter>
+    </None>
+    <Filter Include="Source\ArchWalk\.vs\ArchWalk">
+      <UniqueIdentifier>{ADEF00F0-0B37-45BA-9D42-A40A15C8C3F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ArchWalk\.vs\ArchWalk\v16">
+      <UniqueIdentifier>{B13C1AED-E3CE-40EC-A4B7-D380FFCC8F2B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArchWalk\.vs\ArchWalk\v16\Browse.VC.db">
+      <Filter>Source\ArchWalk\.vs\ArchWalk\v16</Filter>
+    </None>
   </ItemGroup>
 </Project>

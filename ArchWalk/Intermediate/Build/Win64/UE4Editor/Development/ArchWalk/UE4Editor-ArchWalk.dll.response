@@ -68,6 +68,7 @@
 "F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"F:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\NavigationSystem\UE4Editor-NavigationSystem.lib"
 /OUT:"F:\_UEVR\UEVRSystem\ArchWalk\Binaries\Win64\UE4Editor-ArchWalk.dll"
 /IMPLIB:"F:\_UEVR\UEVRSystem\ArchWalk\Intermediate\Build\Win64\UE4Editor\Development\ArchWalk\UE4Editor-ArchWalk.suppressed.lib"
 /PDB:"F:\_UEVR\UEVRSystem\ArchWalk\Binaries\Win64\UE4Editor-ArchWalk.pdb"

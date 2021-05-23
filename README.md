@@ -190,8 +190,40 @@ void AVRCharacter::FadeOut()
 
 ```
 
+## NavMesh
+
+```editor
+Model  panel -> Nav Mesh Bounds Volume
+Press P to show/hide 
+```
+
+In YourProjectNameBuild.cs, insert "NavigationSystem" Module in PublicDependencyModuleNames List:
+
+```compiler
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "NavigationSystem" });
+```
+___
+
+```c++
+//Adding navMesh reference
+
+//Header:	
+private:
+	UPROPERTY(EditAnywhere)
+	FVector TeleportProjectionExtent = FVector(100, 100, 100);
+
+//File:
+
+#include "NavigationSystem.h"
+
+FNavLocation NavLocation;
+
+//Returns true if is poiting to navMesh
+UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(HitResult.Location, NavLocation, TeleportProjectionExtent);
 
 
+```
+___
 <br/><br/>
 ## <b> Unity to Unreal glossary </b> 
 
@@ -201,6 +233,9 @@ void AVRCharacter::FadeOut()
 |RayCast|UWorld::LineTraceSingleByChannel|https://docs.unrealengine.com/en-US/API/Runtime/Engine/Engine/UWorld/LineTraceSingleByChannel/index.html
 |TimeDelta()| FTimerManager::SetTimer |https://docs.unrealengine.com/en-US/API/Runtime/Engine/FTimerManager/SetTimer/index.html
 | Transform = new Vector3(Transform) | SetActorLocation(OtherComponent->GetComponentLocation()); | https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/SetActorLocation/index.html|
+| Debug.Log("")  print("") | PrintLine(TEXT("")) | https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/index.html
+| | |
+| | |
 | | |
 
  
@@ -240,4 +275,7 @@ ___
     
     * PlayerCameraManager.Rotation: VR Update 
     * PlayerCameraManager.location: update acording move input
+
+
+
 
