@@ -223,6 +223,10 @@ UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(HitResult.
 
 
 ```
+
+### Editing post processing material
+
+https://prnt.sc/13bjmmb
 ___
 <br/><br/>
 ## <b> Unity to Unreal glossary </b> 
@@ -231,12 +235,10 @@ ___
 |-----|-------| ----- |
 |Mesh| UStaticMeshComponent|https://docs.unrealengine.com/en-US/API/Runtime/Engine/Components/UStaticMeshComponent/index.html
 |RayCast|UWorld::LineTraceSingleByChannel|https://docs.unrealengine.com/en-US/API/Runtime/Engine/Engine/UWorld/LineTraceSingleByChannel/index.html
-|TimeDelta()| FTimerManager::SetTimer |https://docs.unrealengine.com/en-US/API/Runtime/Engine/FTimerManager/SetTimer/index.html
+|Manipulating deltatime| FTimerManager::SetTimer |https://docs.unrealengine.com/en-US/API/Runtime/Engine/FTimerManager/SetTimer/index.html
 | Transform = new Vector3(Transform) | SetActorLocation(OtherComponent->GetComponentLocation()); | https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/SetActorLocation/index.html|
-| Debug.Log("")  print("") | PrintLine(TEXT("")) | https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/index.html
-| | |
-| | |
-| | |
+| Debug.Log("")  print("") | UE_LOG(Category, Verbosity, (TEXT("")) | https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/index.html
+| OnTriggerXXXX(collider other) | TriggerVolume->IsOverlappingActor(ActorEvent) | https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/IsOverlappingActor/index.html
 
  
  </br></br>
@@ -255,6 +257,45 @@ bool LineTraceSingleByChannel
 //TimeDeltaTime
 FTimerHandle Handle;
 GetWorldTimerManager().SetTimer(Handle, this, &ClientCall::FinishFade, FadeTime, false);
+
+//Hello example
+FString Log = TEXT("Hello");
+FString* PrtLog = &Log;
+
+Log.Len();
+
+PrtLog->Len();
+
+UE_LOG(LogTemp, Warning, TEXT("%s"), **PrtLog /* Derefencing and using overload operator */)
+
+//Acces object name
+*GetOwner()->GetName();
+
+//Access object transform
+GetOwner()->GetTransform()
+
+//Rotation Sample
+
+float InitialYaw;
+float CurrentYaw;
+float TargetYaw;
+
+CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, 0.02f);
+FRotator Rotation = GetOwner()->GetActorRotation();
+Rotation.Yaw = CurrentYaw;
+GetOwner()->SetActorRotation(Rotation);	
+
+//Collision Trigger
+
+//h
+#include "Engine/TriggerVolume.h"
+
+UPROPERTY(EditAnywhere)
+ATriggerVolume* TriggerPointer;
+
+UPROPERTY(EditAnywhere)
+AActor* ActorEvent;
+
 
  ```
 <br/><br/>

@@ -59,8 +59,6 @@ bool AVRCharacter::FindTeleportDestination(FVector& OutLocation)
 	if (!bHit) return false;
 
 	FNavLocation NavLocation;
-	//bool bOnNavMesh = GetWorld()->GetNavigationSystem()->ProjectPointToNavigation(HitResult.Location, NavLocation, TeleportProjectionExtent);	//Old UE 
-	
 	bool bOnNavMesh = UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(HitResult.Location, NavLocation, TeleportProjectionExtent);
 
 	if (!bOnNavMesh) return false;
